@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
-        <script src="index.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoicm9oaXQ3NDExNCIsImEiOiJja2Vteml3eWEwYzAzMnJzYWMyaTQyYWYzIn0.dwWbohPLBNm5UvF8HCepww'
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/dark-v10',
+    zoom : 1,
+    center : [0,20]
+  });
+  
+
+</script>
+    
     <title>corona with scripting</title>
     <style>
         *{
@@ -29,18 +43,6 @@
 
     
 
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-<script>
-  mapboxgl.accessToken = 'pk.eyJ1Ijoicm9oaXQ3NDExNCIsImEiOiJja2Vteml3eWEwYzAzMnJzYWMyaTQyYWYzIn0.dwWbohPLBNm5UvF8HCepww'
-  var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/dark-v10',
-    zoom : 1,
-    center : [0,20]
-  });
-  
-
-</script>
 
 
 
